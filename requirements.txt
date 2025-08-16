@@ -1,0 +1,5 @@
+# Minimal dependencies (standard library used where possible)
+# For real deployments, you may add:
+# requests          # If you call external APIs for anchoring
+# python-bitcoinlib # If you speak to bitcoind directly and need tx utils
+# cryptography      # If you integrate real key material, TLS client certs, etc.

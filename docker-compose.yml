@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  # Optional: add a bitcoind service here if you want to anchor for real.
+  # bitcoind:
+  #   image: ruimarinho/bitcoin-core:24.0
+  #   command: ["-printtoconsole", "-regtest=1"]
+  #   ports:
+  #     - "18443:18443"
+  #   volumes:
+  #     - ./data/bitcoin:/bitcoin/.bitcoin
+  anchor:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["bash", "-lc", "pip install -r requirements.txt && python scripts/run_gateway.py --input examples/sample_data.json --window 10"]
