@@ -95,6 +95,39 @@ Compared with other data-integrity solutions in the IoT/blockchain market, this 
 
 ---
 
+## 🏭 Industries & Applications
+
+This gateway is especially valuable in industries where **compliance, warranty, and trust in operational logs** are critical.
+
+### 1. Manufacturing & Predictive Maintenance
+- Machines generate vibration, temperature, and energy readings.
+- Anchoring logs ensures data can’t be falsified in warranty disputes or compliance audits.
+- Supports ISO/IEC quality management certifications.
+
+### 2. Pharmaceuticals & Life Sciences
+- Regulatory bodies (FDA, EMA, GMP) require immutable batch records for drug production.
+- Anchoring sensor + production logs proves integrity in chain-of-custody and audit trails.
+
+### 3. Energy & Utilities
+- Power plants, smart grids, and renewable energy systems need tamper-proof metering and incident logs.
+- Provides trust for energy SLAs and carbon credit reporting.
+
+### 4. Transportation & Logistics
+- Fleet telematics: GPS, fuel consumption, cold-chain storage temperatures.
+- Anchored logs prove shipments stayed within compliance conditions (e.g., vaccines kept safe).
+
+### 5. Aerospace & Defense
+- Mission-critical safety and operational telemetry logs must remain immutable for decades.
+- Anchoring ensures independent verifiability across supply chains.
+
+### 6. Food & Agriculture
+- Traceability and HACCP compliance in food safety monitoring.
+- Anchoring IoT logs (temperature, humidity, storage) prevents tampering during distribution.
+
+**Summary**: Highest-need industries are those with **strict regulations, high liability, or safety-critical environments**: pharma, aerospace, energy, and manufacturing.
+
+---
+
 ## Quick start
 
 ### 1) Create a virtual environment (optional)
