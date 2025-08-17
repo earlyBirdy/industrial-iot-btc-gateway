@@ -1,5 +1,7 @@
 import argparse, json, os, time
 from typing import List, Dict, Any
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from gateway.storage.local_store import LocalStore
 from gateway.merkle.batcher import MerkleBatcher
 from gateway.anchor.bitcoin_anchor import BitcoinAnchor
