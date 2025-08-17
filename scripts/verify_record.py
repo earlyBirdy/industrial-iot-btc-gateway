@@ -1,5 +1,7 @@
 import argparse, json
 from typing import Dict, Any, List
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from gateway.storage.local_store import LocalStore
 from gateway.merkle.merkle_tree import verify_merkle_proof, sha256
 from gateway.anchor.bitcoin_anchor import BitcoinAnchor
