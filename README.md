@@ -18,7 +18,7 @@ Compared with other data-integrity solutions in the IoT/blockchain market, this 
    - Unlike private or consortium blockchains, no vendor or authority can rewrite history.
 
 2. **Lightweight Edge Deployment**
-   - Runs on rugged industrial embedded PCs (Intel Atom, ARM, Sintrones, Advantech).
+   - Runs on rugged industrial embedded PCs (Intel Atom, ARM, ex. Sintrones ...etc.).
    - Uses SPV (headers-only) instead of full chain → small footprint.
 
 3. **Privacy-Preserving**
